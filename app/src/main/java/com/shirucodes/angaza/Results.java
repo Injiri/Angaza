@@ -87,7 +87,7 @@ public class Results extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            StringBuffer rawApiResultBuffer = HttpRequests.getRawVerificationResult(newsUrl);
+            StringBuffer rawApiResultBuffer = HttpRequests.getRawVerificationResult("https://www.bbc.com/news/world-middle-east-49181534");
 
             if (rawApiResultBuffer != null) {
 

@@ -20,7 +20,6 @@ public class ResponseDiserializer {
 
 
         try {
-
             paragraphArrayList.clear();
             JSONObject jsonpObject = new JSONObject(rawApiResultStringBuffer.toString());
             JSONArray jsonArray = jsonpObject.getJSONArray("results");
@@ -32,7 +31,7 @@ public class ResponseDiserializer {
                     Paragraph paragraph = new Paragraph();
 
 
-                    if (jsonObject.getString("para") != null) {
+                    if (jsonObject.getString("Para") != null) {
                         paragraph.setParagraphText(jsonObject.getString("para"));
 
                     } else {
@@ -57,7 +56,7 @@ public class ResponseDiserializer {
             return paragraphArrayList;
         } catch (Exception e) {
             e.printStackTrace();
-            Log.e(TAG, "deserializeCarepointData: " + e);
+            Log.e(TAG, "Unable to deserializeResultData: " + e);
 
             return new ArrayList<>();
         }

@@ -13,10 +13,10 @@ public class HttpRequests {
     private static final String TAG = HttpRequests.class.getSimpleName();
 
     public static StringBuffer getRawVerificationResult(String newsUrlToVerify) {
+
         try {
             /** initializing StringBuilder  */
-            StringBuilder stringBuilder = new StringBuilder()
-                    .append("https://stl-v2.herokuapp.com/api/v2/get?url=")
+            StringBuilder stringBuilder = new StringBuilder().append("https://stl-v2.herokuapp.com/api/v2/get?url=")
                     .append(newsUrlToVerify);
 
             /** searching for url */
@@ -29,11 +29,11 @@ public class HttpRequests {
             StringBuffer stringBuffer = new StringBuffer();
 
             String outputData = "";
-
             while ((outputData = bufferedReader.readLine()) != null) {
                 Log.e(TAG, "getRawVerificationResult: " + outputData);
                 stringBuffer.append(outputData);
             }
+
 
             Log.e(TAG, "loaded with size of  => " + "Size is " + stringBuffer.length());
 
