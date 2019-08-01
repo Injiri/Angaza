@@ -2,14 +2,14 @@ package com.shirucodes.angaza.models;
 
 public class Paragraph {
     String paragraphText;
-    int paragraphScore;
+    String paragraphScore;
     String paragraphAuthenticity;
 
     public Paragraph() {
 
     }
 
-    public Paragraph(String paragraphText, int paragraphScore, String paragraphAuthenticity) {
+    public Paragraph(String paragraphText, String paragraphScore, String paragraphAuthenticity) {
         this.paragraphText = paragraphText;
         this.paragraphScore = paragraphScore;
         this.paragraphAuthenticity = paragraphAuthenticity;
@@ -23,11 +23,11 @@ public class Paragraph {
         this.paragraphText = paragraphText;
     }
 
-    public int getParagraphScore() {
+    public String getParagraphScore() {
         return paragraphScore;
     }
 
-    public void setParagraphScore(int paragraphScore) {
+    public void setParagraphScore(String paragraphScore) {
         this.paragraphScore = paragraphScore;
     }
 

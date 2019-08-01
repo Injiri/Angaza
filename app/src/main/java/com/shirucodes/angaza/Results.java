@@ -56,11 +56,11 @@ public class Results extends AppCompatActivity {
         adapter.notifyDataSetChanged();
 
         load_result = findViewById(R.id.load_results);
-        newsUrl = new Intent().getStringExtra("news_link");
+        newsUrl = getIntent().getStringExtra("news_link");
         new FetchApiResultTask().execute();//load the api results in background while progress rotates
 
         retrieveInfo();
-          load_result.loadUrl("https://stl-v2.herokuapp.com/api/v2/get?url=" + retrieveInfo());
+//          load_result.loadUrl("https://stl-v2.herokuapp.com/api/v2/get?url=" + retrieveInfo());
 
 
         cacheVerificationDetails(); // store the recent verifications on local database
@@ -96,7 +96,7 @@ public class Results extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
 
-            StringBuffer rawApiResultBuffer = HttpRequests.getRawVerificationResult(retrieveInfo());
+            StringBuffer rawApiResultBuffer = HttpRequests.getRawVerificationResult(newsUrl);
 
             if (rawApiResultBuffer != null) {
 

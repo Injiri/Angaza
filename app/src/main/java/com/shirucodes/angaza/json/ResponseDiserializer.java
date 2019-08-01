@@ -6,6 +6,7 @@ import com.shirucodes.angaza.models.Paragraph;
 import com.shirucodes.angaza.models.Verification;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -21,38 +22,27 @@ public class ResponseDiserializer {
 
         try {
             paragraphArrayList.clear();
-            JSONObject jsonpObject = new JSONObject(rawApiResultStringBuffer.toString());
-            JSONArray jsonArray = jsonpObject.getJSONArray("results");
+            JSONObject jsonObject = new JSONObject(rawApiResultStringBuffer.toString());
+            Paragraph paragraph = new Paragraph();
+            if (jsonObject instanceof JSONObject) {
 
-            for (int index = 0; index < jsonArray.length(); index++) {
+                if (jsonObject.getString("Para") != null) {
+                    paragraph.setParagraphText(jsonObject.getString("Para"));
 
-                try {
-                    JSONObject jsonObject = jsonArray.getJSONObject(index);
-                    Paragraph paragraph = new Paragraph();
-
-
-                    if (jsonObject.getString("Para") != null) {
-                        paragraph.setParagraphText(jsonObject.getString("para"));
-
-                    } else {
-                        paragraph.setParagraphText("No respective paragraph");
-                    }
-
-
-                    if (jsonObject.getInt("score") != 0) {
-                        paragraph.setParagraphScore(Integer.parseInt("score"));
-                    } else {
-                        paragraph.setParagraphScore(0);
-                    }
-
-                    paragraphArrayList.add(paragraph);
-
-                } catch (Exception e) {
-                    Log.e(TAG, "deserializeVerificationResult: " + e);
+                } else {
+                    paragraph.setParagraphText("No respective paragraph");
                 }
 
-            }
+                if (jsonObject.getString("score").equalsIgnoreCase("0")) {
 
+                    paragraph.setParagraphScore("0");
+                } else {
+                    paragraph.setParagraphScore("score");
+                }
+
+                paragraphArrayList.add(paragraph);
+
+            }
             return paragraphArrayList;
         } catch (Exception e) {
             e.printStackTrace();
@@ -61,5 +51,8 @@ public class ResponseDiserializer {
             return new ArrayList<>();
         }
 
+
     }
+
 }
+
