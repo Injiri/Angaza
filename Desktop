@@ -1,0 +1,1000 @@
+  917  clear
+  918  exit
+  919  python fnc_kfold.py
+  920  exit
+  921  python n_kfold.py
+  922  python
+  923  exit
+  924  git statuss
+  925  git statud
+  926  ggit status
+  927  git statu
+  928  git status
+  929  git ignore
+  930  clear
+  931  git add .
+  932  git push commit -m "created flask  web app for Api interfacing"
+  933  git commit -m "created flask  web app for Api interfacing"
+  934  git push origiin master
+  935  git push prigin master
+  936  git push origin master
+  937  clear
+  938  git status
+  939  clear
+  940  exit
+  941  flak run
+  942  clear
+  943  flask run
+  944  clear
+  945  flask run
+  946  clear
+  947  exit
+  948  flask run
+  949  clear
+  950  exit
+  951  git add .
+  952  gitcommit -m "web app set pending server intergration"
+  953  git commit -m "web app set pending server intergration"
+  954  clear
+  955  git status
+  956  clear
+  957  exit
+  958  git init
+  959  heroku git:remote -a shielded-mesa-21582
+  960  git add .
+  961  git push heroku master
+  962  git commit -am "make it better"
+  963  git push heroku master
+  964  clear
+  965  exit
+  966  git push heroku master
+  967  clear
+  968  heroku buildpacks:clear
+  969  git status
+  970  cklear
+  971  clear
+  972  git status
+  973  git add .
+  974  git commit -m "removed fnc"
+  975  git push heroku master
+  976  clear
+  977  git push heroku master
+  978  clear
+  979  git status
+  980  git add.
+  981  git status
+  982  git add .
+  983  clear
+  984  git status
+  985  git push heroku master
+  986  clear
+  987  heroku buildpacks:set heroku/python
+  988  make test
+  989  git status
+  990  git add .
+  991  git push origin master
+  992  git status
+  993  git push heroku master
+  994  clear
+  995  git add .
+  996  git commit -m 'pickle model fix'
+  997  git pusht
+  998  git push
+  999  git push origin master
+ 1000  clear
+ 1001  git push origin master
+ 1002  git status
+ 1003  clear
+ 1004  exiy
+ 1005  exit
+ 1006  flask run
+ 1007  cd desktop
+ 1008  cd Desktop
+ 1009  git clone https://github.com/Injiri/Tracker-1.git
+ 1010  git clone 
+ 1011  git clone https://github.com/Injiri/Tracker-1.git
+ 1012  clear
+ 1013  git clone https://github.com/Injiri/Tracker-1.git
+ 1014  exit
+ 1015  git init
+ 1016  git add.
+ 1017  git add .
+ 1018  git commit -m "evis Mulongo 4th year project 2018/2019"
+ 1019  clear
+ 1020  ls
+ 1021  git status
+ 1022  clear
+ 1023  exit
+ 1024  cd AndroidStudioProjects
+ 1025  cd daktarionline
+ 1026  ls
+ 1027  exit
+ 1028  cd Desktop
+ 1029  git clone https://github.com/timigod/android-chat-ui.git
+ 1030  exit
+ 1031  vim
+ 1032  cd Desktop
+ 1033  vim txxxt.txt
+ 1034  cd Desktop
+ 1035  git clone https://github.com/amitkarn/ChatUXDemo.git
+ 1036  clea
+ 1037  clear
+ 1038  java -jar floreantpos.jar
+ 1039  exit
+ 1040  cd Desktop
+ 1041  git clone https://github.com/wasulabenjamin/bootstrapfx.git
+ 1042  exit
+ 1043  curl example.com
+ 1044  clear
+ 1045  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: XXXXXXXX" -H "App-Key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"   -H "Content-Type: application/json" -d '{
+ 1046          "sex": "female",
+ 1047          "age": 25,
+ 1048          "evidence": [
+ 1049            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1050            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1051            {"id": "p_81", "choice_id": "absent"}
+ 1052          ],
+ 1053          "extras": {
+ 1054            "disable_groups": true
+ 1055          }
+ 1056    }'
+ 1057  EXIT
+ 1058  exit
+ 1059  sudo apt install curl
+ 1060  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1061          "sex": "female",
+ 1062          "age": 25,
+ 1063          "evidence": [
+ 1064            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1065            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1066            {"id": "p_81", "choice_id": "absent"}
+ 1067          ],
+ 1068          "extras": {
+ 1069            "disable_groups": true
+ 1070          }
+ 1071    }'
+ 1072  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1073          "sex": "male",
+ 1074          "age": 25,
+ 1075          "evidence": [
+ 1076            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1077            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1078            {"id": "p_81", "choice_id": "absent"}
+ 1079          ],
+ 1080          "extras": {
+ 1081            "disable_groups": true
+ 1082          }
+ 1083    }'
+ 1084  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1085          "sex": "male",
+ 1086          "age": 25,
+ 1087          "evidence": [
+ 1088            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1089            {"id": "s_23", "choice_id": "present", "initial": true},
+ 1090            {"id": "p_81", "choice_id": "absent"}
+ 1091          ],
+ 1092          "extras": {
+ 1093            "disable_groups": true
+ 1094          }
+ 1095    }'
+ 1096  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1097          "sex": "male",
+ 1098          "age": 214
+ 1099          "evidence": [
+ 1100            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1101            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1102            {"id": "p_81", "choice_id": "absent"}
+ 1103          ],
+ 1104          "extras": {
+ 1105            "disable_groups": true
+ 1106          }
+ 1107    }'
+ 1108  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1109          "sex": "male",
+ 1110          "age": 21
+ 1111          "evidence": [
+ 1112            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1113            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1114            {"id": "p_81", "choice_id": "absent"}
+ 1115          ],
+ 1116          "extras": {
+ 1117            "disable_groups": true
+ 1118          }
+ 1119    }'
+ 1120  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1121          "sex": "female",
+ 1122          "age": 18,
+ 1123          "evidence": [
+ 1124            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1125            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1126            {"id": "p_81", "choice_id": "absent"}
+ 1127          ],
+ 1128          "extras": {
+ 1129            "disable_groups": true
+ 1130          }
+ 1131    }'
+ 1132  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1133          "sex": "female",
+ 1134          "age": 18,
+ 1135          "evidence": [
+ 1136            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1137            {"id": "s_23", "choice_id": "present", "initial": true},
+ 1138            {"id": "p_81", "choice_id": "absent"}
+ 1139          ],
+ 1140          "extras": {
+ 1141            "disable_groups": true
+ 1142          }
+ 1143    }'
+ 1144  ,,;h
+ 1145  ;,hh
+ 1146  ,;h
+ 1147  rj
+ 1148  cler
+ 1149  clear
+ 1150  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1151          "sex": "female",
+ 1152          "age": 18,
+ 1153          "evidence": [
+ 1154            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1155            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1156            {"id": "p_81", "choice_id": "absent"}
+ 1157          ],
+ 1158          "extras": {
+ 1159            "disable_groups": true
+ 1160          }
+ 1161    }'
+ 1162  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1163          "sex": "female",
+ 1164          "age": 18,
+ 1165          "evidence": [
+ 1166            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1167            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1168            {"id": "p_81", "choice_id": "absent"}
+ 1169          ],
+ 1170          "extras": {
+ 1171            "disable_groups": true
+ 1172          }
+ 1173    }'
+ 1174  curl "https://api.infermedica.com/v2/diagnosis"   -X "POST"   -H "App-Id: 66e69db7" -H "App-Key: 5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json" -d '{
+ 1175          "sex": "female",
+ 1176          "age": 18,
+ 1177          "evidence": [
+ 1178            {"id": "s_47", "choice_id": "present", "initial": true},
+ 1179            {"id": "s_22", "choice_id": "present", "initial": true},
+ 1180            {"id": "p_81", "choice_id": "absent"}
+ 1181          ],
+ 1182          "extras": {
+ 1183            "disable_groups": true
+ 1184          }
+ 1185    }'
+ 1186  clea historu
+ 1187  exit
+ 1188  javac -jar floreantpos.jar
+ 1189  javac - jar floreantpos.jar
+ 1190  java -jar floreantpos.jar
+ 1191  mysql start
+ 1192  mysql u- root
+ 1193  mysql -u root -p
+ 1194  clear
+ 1195  myswl
+ 1196  mysql
+ 1197  mysql -root -p
+ 1198  clear;
+ 1199  exit
+ 1200  exit
+ 1201  javac jar floreantpos.jar
+ 1202  javac -jar floreantpos.jar
+ 1203  javac - jar floreantpos.jar
+ 1204  java -jar floreantpos.jar
+ 1205  exit
+ 1206  exit
+ 1207  top4
+ 1208  top
+ 1209  ls
+ 1210  ./javafx_scenebuilder-1_1-linux-x64.deb
+ 1211  sudo ./javafx_scenebuilder-1_1-linux-x64.deb
+ 1212  exit
+ 1213  ls
+ 1214  cd compressed
+ 1215  cd Compressed
+ 1216  l
+ 1217  ls
+ 1218  exit
+ 1219  dpkg-query  -S scenebuilder
+ 1220  exit
+ 1221  ./SceneBuilder.jar
+ 1222  sudo ./SceneBuilder.jar
+ 1223  java -jar SceneBuilder.jar
+ 1224  exit
+ 1225  apt install default-jre
+ 1226  apt get install default-jre
+ 1227  apt-get install default-jre
+ 1228  apt get install default-jre
+ 1229  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key: 
+ 1230  5bf97b67e0b35951c083672f9c168df0
+ 1231  "   -H "Content-Type: application/json"   -d '{"text": "i feel smoach pain but no couoghing today"}'
+ 1232  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel smoach pain but no couoghing today"}'
+ 1233  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel dizzy today"}'
+ 1234  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel aroused  today"}'
+ 1235  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel mustabated  today"}'
+ 1236  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel sex  today"}'
+ 1237  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel sexy  today"}'
+ 1238  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel mad  today"}'
+ 1239  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel mud  today"}'
+ 1240  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel sweet  today"}'
+ 1241  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel sweat  today"}'
+ 1242  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel nosee  today"}'
+ 1243  curl "https://api.infermedica.com/v2/parse"   -X "POST"   -H "App-Id:66e69db7" -H "App-Key:5bf97b67e0b35951c083672f9c168df0"   -H "Content-Type: application/json"   -d '{"text": "i feel night cough  today"}'
+ 1244  exit
+ 1245  exit
+ 1246  git status
+ 1247  git initi
+ 1248  git init
+ 1249  git status
+ 1250  git add .
+ 1251  git commit -m "achieved a way to fetch infomedica APi responses into pojo classes"
+ 1252  git status
+ 1253  exit
+ 1254  git remote add origin https://github.com/Injiri/API_custom_calls.git
+ 1255  git remote -v
+ 1256  git push origin master
+ 1257  exit
+ 1258  cd Desktop
+ 1259  https://github.com/Injiri/oz.git
+ 1260  git clone https://github.com/Injiri/oz.git
+ 1261  exit
+ 1262  sudo dpkg -i scenebuilder-11.0.0.deb
+ 1263  exit
+ 1264  sudo dkpg -i scenebuilder-11.0.0
+ 1265  exit
+ 1266  start mysql
+ 1267  ext
+ 1268  exit
+ 1269  start mysql
+ 1270  start mysql service
+ 1271  start service mysql
+ 1272  clear
+ 1273  service mysql start
+ 1274  mysql-u root -p
+ 1275  mysql-u root p
+ 1276  mysql -u root -p
+ 1277  exit
+ 1278  mysql -u root -p
+ 1279  exit
+ 1280  myswl -u root -h localhost -p
+ 1281  mysql -u root -h localhost -p
+ 1282  mysql -u root -h localhost 
+ 1283  mysql -u root -h localhost -p "' 
+ 1284  "
+ 1285  exit
+ 1286  mysql
+ 1287  exi
+ 1288  exti
+ 1289  exit
+ 1290  sudo mysql_secure_installation
+ 1291  mysql
+ 1292  mysql -root -p
+ 1293  root
+ 1294  mysql -root -p
+ 1295  service stop mysql
+ 1296  service  mysql stop
+ 1297  service mysql stop
+ 1298  service mysql start
+ 1299  mysql -root -p
+ 1300  mysql -u root -p
+ 1301  exit
+ 1302  mysql -u root 
+ 1303  mysql -u root  -p 
+ 1304  exit
+ 1305  mysql -u root --password=linuxconfig.org 
+ 1306  sudo mysql -u root --password=linuxconfig.org 
+ 1307  sudo musql -u root -p
+ 1308  sudo mysql -u root -p
+ 1309  create db Inventory
+ 1310  create database inventory
+ 1311  create database inventory;
+ 1312  exit
+ 1313  sudo  mysql -u root -p
+ 1314  exit
+ 1315  sudo mysql -u root -p
+ 1316  exit
+ 1317  ps aux | grep Scene
+ 1318  ps aux 
+ 1319  clear
+ 1320  grep Scene
+ 1321  ps aux | grep Scene
+ 1322  exit
+ 1323  exi
+ 1324  clear
+ 1325  history  > todaysCommands.txt
+ 1326  cd Desktop ;  sudo history  > todaysCommands.txt
+ 1327  cd ..
+ 1328  history > todayscommands.txt
+ 1329  sudo history > todayscommands.txt
+ 1330  cd Desktop
+ 1331  cd ./Desktop
+ 1332  cd ../ ;cd Desktop
+ 1333  cd ../ 
+ 1334  cd ./Desktop
+ 1335  cd Desktop
+ 1336  ls
+ 1337  cd ./
+ 1338  ls
+ 1339  ../
+ 1340  cd .
+ 1341  cd .;
+ 1342  clear
+ 1343  ls
+ 1344  cd ..\;
+ 1345  cd ;
+ 1346  ls
+ 1347  cd Desktop
+ 1348  cd .;
+ 1349  ls
+ 1350  clear
+ 1351  history > myhisto.txt
+ 1352  exit
+ 1353  dpkg-query  -S scenebuilder
+ 1354  exit
+ 1355  cd Desktop
+ 1356  ls
+ 1357  clear
+ 1358  git clone https://github.com/Ginowine/android-firebase-authentication.git
+ 1359  exit
+ 1360  sudo add-apt-repository ppa:webupd8team/java
+ 1361  sudo apt-get install oracle-java8-set-default
+ 1362  java --version
+ 1363  exit
+ 1364  sudo add-apt-repository ppa:webupd8team/java
+ 1365  sudo apt install oracle-java8-installer
+ 1366  sudo apt-get update
+ 1367  free -m
+ 1368  free -g
+ 1369  free -m
+ 1370  cat /proc/meminfo
+ 1371  exit
+ 1372  sudo add-apt-repository ppa:webupd8team/java
+ 1373  sudo apt update; sudo apt install oracle-java8-installer
+ 1374  exit
+ 1375  java
+ 1376  exit
+ 1377  cd ~
+ 1378  gedit .bashrc
+ 1379  exit
+ 1380  cd Documents
+ 1381  exit
+ 1382  java
+ 1383  java -v
+ 1384  java -version
+ 1385  exit
+ 1386  java
+ 1387  javac
+ 1388  gedit
+ 1389  gedit .bashrc
+ 1390  exit
+ 1391  java
+ 1392  java -v
+ 1393  java -version
+ 1394  exit
+ 1395  java
+ 1396  exit
+ 1397  cd ../
+ 1398  git clone https://github.com/ckeller22/Inventory-Management-System.git
+ 1399  exit
+ 1400  ls
+ 1401  git status
+ 1402  cd Desktop
+ 1403  ls
+ 1404  cd 4th
+ 1405  ls
+ 1406  git status
+ 1407  git local -v
+ 1408  git remote -v
+ 1409  git remote   -v
+ 1410  git remote - v
+ 1411  git remote
+ 1412  git oorigin
+ 1413  branch
+ 1414  git branch
+ 1415  git status
+ 1416  exit
+ 1417  xit
+ 1418  exit
+ 1419  cd Desktop
+ 1420  cd oz
+ 1421  ls
+ 1422  git remote add origin https://simoninjiri@bitbucket.org/simoninjiri/daktarionline.git
+ 1423  git remote add origin2 https://simoninjiri@bitbucket.org/simoninjiri/daktarionline.git
+ 1424  git status
+ 1425  git remote -v
+ 1426  git set remote upstream https://simoninjiri@bitbucket.org/simoninjiri/daktarionline.git 
+ 1427  clear
+ 1428  git push origin2 master
+ 1429  history > t.txt
+ 1430  git status
+ 1431  git add.
+ 1432  git add .
+ 1433  commit -m "bitbacket"
+ 1434  git commit commit -m "bitbacket"
+ 1435  git commit -m "bitbacket"
+ 1436  clear
+ 1437  git push origin2 master
+ 1438  exit
+ 1439  i
+ 1440  clear
+ 1441  git init
+ 1442  git git remote add origin  https://simoninjiri@bitbucket.org/alfatechke/inventory.gitadd
+ 1443  git add  remote origin  https://simoninjiri@bitbucket.org/alfatechke/inventory.gitadd
+ 1444  git remote add origin  https://simoninjiri@bitbucket.org/alfatechke/inventory.gitadd
+ 1445  git add .
+ 1446  git status
+ 1447  git commit -m "initial commit"
+ 1448  clear
+ 1449  git push origin master
+ 1450  git push -u origin master
+ 1451  git remote -v
+ 1452  git remote origin set-url https://simoninjiri@bitbucket.org/alfatechke/inventory.git
+ 1453  git remote set-url origin  https://simoninjiri@bitbucket.org/alfatechke/inventory.git
+ 1454  git push -u origin master
+ 1455  git status
+ 1456  git add .
+ 1457  exit
+ 1458  git commit -m "css for most ui components"
+ 1459  git push origin master
+ 1460  exit
+ 1461  sudo apt install phpmyadmin php-mbstring php-gettext
+ 1462  clear
+ 1463  exit
+ 1464  sudo apt install phpmyadmin php-mbstring php-gettext
+ 1465  mysql
+ 1466  sudo mysql -u root -p
+ 1467  sudo apt install phpmyadmin php-mbstring php-gettext
+ 1468  mysql
+ 1469  sudo mysql -u root -p
+ 1470  mysql -u root -p
+ 1471  sudo mysql -u root -p
+ 1472  exit
+ 1473  exit
+ 1474  git status
+ 1475  git add /home/cymoh/Inventory.sql
+ 1476  git add src/css/bootstrapfx.css
+ 1477  git add Inventory.sql
+ 1478  git add src/Database/
+ 1479  git status
+ 1480  git commit - "dump mysql database for inventory"
+ 1481  git commit -m "dump mysql database for inventory"
+ 1482  git push origin master
+ 1483  exit
+ 1484  cd Desktop;
+ 1485  gti clon https://github.com/fiotechnologies/PharmacyFinder.git
+ 1486  git clone https://github.com/fiotechnologies/PharmacyFinder.git
+ 1487  exit
+ 1488  cd Desktop
+ 1489  git clone https://simoninjiri@bitbucket.org/simoninjiri/daktarionline.git
+ 1490  clear
+ 1491  exit
+ 1492  mem
+ 1493  mex
+ 1494  gp
+ 1495  gpm
+ 1496  ext
+ 1497  exit
+ 1498  cd Desktop
+ 1499  git clone https://github.com/ZainMustafaaa/HealthCare-Scan-Nearby-Hospital-Locations.git
+ 1500  exit
+ 1501  mysql  start service
+ 1502  mysql  start service -u root -p
+ 1503  mysql ?
+ 1504  mysql -u root -p
+ 1505  sudo mysql -u root -p
+ 1506  aparche
+ 1507  exit
+ 1508  dkppg config -a
+ 1509  dkpg config -a
+ 1510  exit
+ 1511  12:45 PMUnable to open connection to: localhost/127.0.0.1:5037, due to: java.net.ConnectException: Connection refused
+ 1512  dkpg config -a
+ 1513  ./studio.sh
+ 1514  flutter doctor
+ 1515  flutter
+ 1516  cd Desktop
+ 1517  git clonehttps://github.com/wandesky/angaza_flutter.git
+ 1518  git clone https://github.com/wandesky/angaza_flutter.git
+ 1519  cd angaza
+ 1520  ls
+ 1521  cd angaza_flutter
+ 1522  flutter run
+ 1523  ls
+ 1524  git clone https://github.com/wandesky/angaza_flutter.git
+ 1525  cd angaza_flutter
+ 1526  ls
+ 1527  git clone https://github.com/wandesky/angaza_flutter/tree/develop
+ 1528  git clone https://github.com/wandesky/angaza_flutter/tree/develop.git
+ 1529  exit
+ 1530  cd android-studio
+ 1531  cd ..
+ 1532  cd android_studio
+ 1533  ls
+ 1534  cd bin
+ 1535  ls
+ 1536  ./studio.sh
+ 1537  exit
+ 1538  cd android_studio/bin; ./studioh.sh
+ 1539  cd android_studio/bin; ./studio.sh
+ 1540  clear
+ 1541  exit
+ 1542  to[ ; ;;
+ 1543  clear
+ 1544  toop
+ 1545  top
+ 1546  kill 3839
+ 1547  top
+ 1548  clear
+ 1549  la
+ 1550  cd android_studio
+ 1551  cd bin
+ 1552  clear
+ 1553  ./studio.sh
+ 1554  exit
+ 1555  /etc/apache2/
+ 1556  cd /etc/apache2/
+ 1557  ls
+ 1558  cd sites-available
+ 1559  ls
+ 1560  sudo a2dissite 000-default
+ 1561  systemctl reload apche2
+ 1562  sudo systemctl reload apche2
+ 1563  exit
+ 1564  sudo naulitus
+ 1565  sudo nautilus
+ 1566  git init
+ 1567  git statys
+ 1568  git status
+ 1569  git add .
+ 1570  git commit -m "migration ofrom bitbacket to github"
+ 1571  git status
+ 1572  exit
+ 1573  chrome
+ 1574  sudo chrome
+ 1575  exit
+ 1576  cd android_studuio/bin;./studio.sh
+ 1577  cd android_studuio/bin; ./studio.sh
+ 1578  clear
+ 1579  cd android_studio/bin;./studio.sh
+ 1580  cd android_studio/bin; ./bin
+ 1581  cd android_studio/bin; ./studio.sh
+ 1582  cd android_studio/bin ; ./studio.sh
+ 1583  exit
+ 1584  shutdown
+ 1585  shutdown -c
+ 1586  exit
+ 1587  top
+ 1588  kill 75886
+ 1589  exit
+ 1590  cd android_studio/bin ; ./studio.sh
+ 1591  exit
+ 1592  ls
+ 1593  find ap
+ 1594  like ap
+ 1595  which ap
+ 1596  ls
+ 1597  clear
+ 1598  mkdir apache_tomcat
+ 1599  ls
+ 1600  clear
+ 1601  cd apache/bin
+ 1602  cd apache_tom/bin
+ 1603  ls
+ 1604  cd apache_tomcat
+ 1605  ls
+ 1606  clear
+ 1607  cd bin
+ 1608  clear
+ 1609  ls
+ 1610  ./startup.bat
+ 1611  sudo ./startup.bat
+ 1612  sudo ./startup.sh
+ 1613  sudo ./startup.bat
+ 1614  clea
+ 1615  clear
+ 1616  ls
+ 1617  startup.bat
+ 1618  ./startup.bat
+ 1619  sudo ./startup.bat
+ 1620  exit
+ 1621  cd apache_tomcat/bin
+ 1622  ls
+ 1623  ./startup.bat
+ 1624  sudo ./startup.bat
+ 1625  exut
+ 1626  exit
+ 1627  cd esktop
+ 1628  cd Desktop
+ 1629  git clone https://github.com/HSY229/Simple-Bitcoin-Wallet.git
+ 1630  exit
+ 1631  cd androi_studio.sh
+ 1632  cd android_studio/bin; ./studio.sh
+ 1633  exit
+ 1634  mysql_secure_installation
+ 1635  gcloud auth application-default login
+ 1636  sudo snap install google-cloud-sdk
+ 1637  sudo snap install google-cloud-sdk --classic
+ 1638  exit
+ 1639  pip install pandas
+ 1640  pip3 install numpy
+ 1641  install numpy
+ 1642  PIP install numpy
+ 1643  EXIT
+ 1644  exit
+ 1645  sudo install numpy
+ 1646  numpy
+ 1647  python
+ 1648  exit
+ 1649  pip install numpy
+ 1650  pip install pandas
+ 1651  clear
+ 1652  cd Desktop
+ 1653  git clone https://github.com/bitcoin-wallet/bitcoin-wallet.git
+ 1654  cd ../
+ 1655  jupyter notebook
+ 1656  sudo snap install jupyte
+ 1657  sudo snap install jupyter
+ 1658  jupyter notebook
+ 1659  exit
+ 1660  jupyter notebook
+ 1661  exit
+ 1662  import statsmodels.api as sir
+ 1663  pip install -r requirements.txt
+ 1664  pip install numpy
+ 1665  pip install pandas
+ 1666  python -m  pip  install numpy
+ 1667  python -v
+ 1668  clear
+ 1669  python  -- v
+ 1670  python  -version
+ 1671  python -h
+ 1672  exit
+ 1673  jupiter notebook
+ 1674  jupyter notebook
+ 1675  python -m pip install pandas
+ 1676  jupyter nootebook
+ 1677  jupyter notebook
+ 1678  cd desktop
+ 1679  cd Desktop
+ 1680  git clone https://github.com/activewizardslab/time-series.git
+ 1681  sudo dpkg -i $DEB
+ 1682  sudo apt-get update
+ 1683  sudo dpkg -i $DEB
+ 1684  clear
+ 1685  exit
+ 1686  tar xvzf ./pandoc_2.2.1-2build2_amd64.deb --strip-components 1 -C /usr/local/
+ 1687  sudo dkpg -i ./usr/local/
+ 1688  sudo dpkg -i ./usr/local
+ 1689  sudo dpkg -i ./pandoc_2.2.1-2build2_amd64.deb
+ 1690  sudo apt-get update
+ 1691  sudo dpkg -i ./pandoc_2.2.1-2build2_amd64.deb
+ 1692  cd ..
+ 1693  sudo apt-get update
+ 1694  sudo apt-get install liblua5.1-0
+ 1695  sudo apt-get install pandoc
+ 1696  sudo apt-get install pandoc-data
+ 1697  apt --fix-broken install'
+ 1698  ;
+ 1699  apt --fix-broken install;
+ 1700  exit
+ 1701  pandoc -v
+ 1702  exit
+ 1703  jupyter notebook
+ 1704  cd android_studio/bin; ./studio.sh
+ 1705  exit
+ 1706  vim /etc/apache2/apache2.conf
+ 1707  exit
+ 1708  sudo apt install apache1
+ 1709  sudo apt install apache2
+ 1710  clear
+ 1711  sudo ufw app list
+ 1712  sudo ufw app info "apache full"
+ 1713  sudo ufw app info "Apache full"
+ 1714  sudo ufw app info "Apache Full"
+ 1715  sudo ufw allow in "Apache Full"
+ 1716  iconfig
+ 1717  ipconfig
+ 1718  sudo apt install ipmiutil
+ 1719  ip addr show  eth0
+ 1720  grep iner
+ 1721  grep inet
+ 1722  clear
+ 1723  iconfig
+ 1724  clear
+ 1725  exitt
+ 1726  exit
+ 1727  iconfig
+ 1728  ipconfig
+ 1729  iwconfig
+ 1730  ifconfig
+ 1731  iconfig
+ 1732  clear
+ 1733  exit
+ 1734  curl http://icanhazip.com
+ 1735  mysql
+ 1736  mysql -root -p
+ 1737  sudo mysql -root -p
+ 1738  sudo mysql -h "34.68.70.13" -u root -p
+ 1739  clear
+ 1740  sudo mysql -h "34.68.70.13" -u root -p
+ 1741  sudo mysql -h 34.68.70.13 -u root -p
+ 1742  curl http://icanhazip.com
+ 1743  ping 34.68.70.13 
+ 1744  clear
+ 1745  sudo mysql -h 34.68.70.13 -u root -p
+ 1746  clear
+ 1747  sudo mysql -h 34.68.70.13 -u root -p
+ 1748  clear
+ 1749  sudo apt install php libapache2-mod-php php-mysql
+ 1750  sudo nano /etc/apache2/mode-enabled/dir.conf
+ 1751  sudo nano /etc/apache2/mod-enabled/dir.conf
+ 1752  sudo nano /etc/apache2/mods-enabled/dir.conf
+ 1753  clear
+ 1754  sudo systemctl restart apache2
+ 1755  sudo systemctl status apache2
+ 1756  apt search php-|less
+ 1757  sudo apt install php-cli
+ 1758  cleear
+ 1759  clear]
+ 1760  clear
+ 1761  sudo nano /var/www/html/info.php
+ 1762  clear
+ 1763  curl https://canhazip.com
+ 1764  clear
+ 1765  curl https://canhazip.com
+ 1766  Access mysql remote database from command line
+ 1767  197.232.61.217clear
+ 1768  clear
+ 1769  curl https://canhazip.com
+ 1770  clear
+ 1771  exit
+ 1772  sudo nano /var/www/html/info.php
+ 1773  sudo systemctl restart apache2
+ 1774  clear
+ 1775  sudo rm /var/www/html/info.php
+ 1776  clea
+ 1777  clear
+ 1778  exit
+ 1779  sudo apt install phpmyadmin php-mbstring php-gettext
+ 1780  php phpenmod mbstring
+ 1781  sudo php phpenmod mbstring
+ 1782  sudo  phpenmod mbstring
+ 1783  clear
+ 1784  sudo systemctl restart apache2
+ 1785  clear
+ 1786  sudo mysql -u root -p
+ 1787  sudo mysql_secure_installation
+ 1788  mysql -u root -p
+ 1789  sudo mysql -u root -p
+ 1790  sudo mysql_secure_installation
+ 1791  sudo mysql -u root -p
+ 1792  curl https://icanhazip.com
+ 1793  clear
+ 1794  ifconfig
+ 1795  clear
+ 1796  sudo install phpmyadmin php-mbstring php-gettext
+ 1797  sudo apt install phpmyadmin php-mbstring php-gettext
+ 1798  phpmyadmin
+ 1799  phpmyadmin.php
+ 1800  clear
+ 1801  cd /etc/apache2/conf-enabled/
+ 1802  ls
+ 1803  vim other-vhosts-acces-log.conf
+ 1804  vim other-vhosts-access-log.conf
+ 1805  cler
+ 1806  clear
+ 1807  sudo phpenmod mbstring
+ 1808  sudo systemctl restart apache2;
+ 1809  clear
+ 1810  cd /etc/phpmyadmin/
+ 1811  ls
+ 1812  exit
+ 1813  sudo apachestart server
+ 1814  sudo apache start server
+ 1815  sudo start apache service
+ 1816  sudo start service apache
+ 1817  sudo apache2 start service;
+ 1818  clear
+ 1819  sudo systemctl start apache2
+ 1820  sudo systemctl start mysql
+ 1821  clear
+ 1822  exit
+ 1823  cd /var/
+ 1824  ls
+ 1825  cd ww
+ 1826  cd www
+ 1827  ls
+ 1828  cd html
+ 1829  ls
+ 1830  exit
+ 1831  sudo mysql -u cymoh -p
+ 1832  exit
+ 1833  sudo apt update
+ 1834  sudo apt get-install sublime-text;
+ 1835  sudo apt install sublime-text;
+ 1836  curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+ 1837  sudo apt install sublime-text;
+ 1838  curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg 
+ 1839  sudo apt install sublime-text;
+ 1840  sudo apt install sublime-text
+ 1841  exit
+ 1842  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+ 1843  sxit
+ 1844  exit
+ 1845  cd..
+ 1846  cd ../
+ 1847  cp premiumpay > /var/ww/html
+ 1848  cp premiumpay > /var/ww/html/
+ 1849  cp premiumpay > ~/var/ww/html/
+ 1850  cp premiumpay > ~/var/www/html/
+ 1851  cp premiumpay > /var/www/html/
+ 1852  cp premiumpay to /var/www/html/
+ 1853  cp premiumpay -R to /var/www/html/
+ 1854  sudo cp premiumpay -R to /var/www/html/
+ 1855  exit
+ 1856  sudo a+rwx -R var
+ 1857  sudo chmod a+rwx -R var
+ 1858  exit
+ 1859  sudo vim apache2.conf
+ 1860  cleaar
+ 1861  exit
+ 1862  sudo ufw app list
+ 1863  sudo ufw allow in (Apache Full);
+ 1864  sudo ufw allow in"Apache Full";
+ 1865  sudo ufw allow in "Apache Full";
+ 1866  sudo nano /etc/apache2/mods-enabled/dir.conf
+ 1867  cd /etc/phpmyadmin/
+ 1868  ls
+ 1869  cd ..
+ 1870  vim /apache2/apache.cof
+ 1871  vim /apache2/apache.conf
+ 1872  vim /apache2/apache2.conf
+ 1873  ls
+ 1874  vim /apache2/apache2.cof
+ 1875  cd apache2
+ 1876  ls
+ 1877  sudo vim apache2.cof
+ 1878  sudo vim apache2.conf
+ 1879  sudo systemctl restart
+ 1880  sudo systemctl restart apache2
+ 1881  exit
+ 1882  cd deskto
+ 1883  cd /deskto
+ 1884  wit
+ 1885  exit
+ 1886  git add .
+ 1887  git commit -m "resolved sqlite db crash"
+ 1888  git push origin master
+ 1889  git status
+ 1890  git add .
+ 1891  git push origin master .
+ 1892  git commit -m "data deserialization sync"
+ 1893  git push origin master 
+ 1894  ssh -fN -o StrictHostKeyChecking=no -p 2200 nr9ebdvp6gdpe8vwc03f5tkwj8@useast-android-6.appetize.io -L6000:localhost:5611 && adb connect localhost:6000
+ 1895  adb kill-server
+ 1896  adb start-server
+ 1897  git add .
+ 1898  git commit -m "sync"
+ 1899  git push origin master
+ 1900  adb kill-server
+ 1901  adb-start server
+ 1902  adb start-server
+ 1903  git status
+ 1904  git add .
+ 1905  git commit "Able to consume api reslt onto results page"
+ 1906  git commit -m "loading result data to page success"
+ 1907  git add .
+ 1908  git push  origin master
+ 1909  cd ...
+ 1910  cd  ....
+ 1911  cd ~
+ 1912  cd AndroidStudioProjects
+ 1913  cd Angaza
+ 1914  git status
+ 1915  history > ./Desktop/his.txt
+ 1916  history > ./Desktop
