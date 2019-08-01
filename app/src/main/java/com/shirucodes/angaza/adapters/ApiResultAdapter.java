@@ -3,6 +3,7 @@ package com.shirucodes.angaza.adapters;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -26,13 +27,14 @@ public class ApiResultAdapter extends RecyclerView.Adapter<ApiResultAdapter.ApiR
     @Override
     public ApiResultHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.recent_search_item, parent, false);
+        View view = inflater.inflate(R.layout.result_paragraph_item, parent, false);
         return new ApiResultHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ApiResultHolder holder, int position) {
-
+    public void onBindViewHolder(@NonNull ApiResultHolder resultHolder, int position) {
+        Paragraph paragraph = paragraphArrayList.get(position);
+        resultHolder.singleParagraph.setText(paragraph.getParagraphText());
     }
 
     @Override
@@ -41,8 +43,11 @@ public class ApiResultAdapter extends RecyclerView.Adapter<ApiResultAdapter.ApiR
     }
 
     public class ApiResultHolder extends RecyclerView.ViewHolder {
+        TextView singleParagraph;
+
         public ApiResultHolder(@NonNull View itemView) {
             super(itemView);
+            singleParagraph = (TextView) itemView.findViewById(R.id.result_paragraph);
         }
     }
 }

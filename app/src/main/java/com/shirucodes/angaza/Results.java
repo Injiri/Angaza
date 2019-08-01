@@ -1,9 +1,11 @@
 package com.shirucodes.angaza;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
@@ -37,32 +39,39 @@ public class Results extends AppCompatActivity {
     RecyclerView recyclerView;
     ApiResultAdapter adapter;
     ArrayList<Paragraph> paragraphArrayList = new ArrayList<>();
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
+
         dbOpenHelper = new AngazaDatabaseOpenHelper(getApplicationContext());
         angazaDatabase = dbOpenHelper.getWritableDatabase();
+
+        recyclerView = findViewById(R.id.paragraphRecyclerView);
+        adapter = new ApiResultAdapter(paragraphArrayList);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        adapter.notifyDataSetChanged();
+
         load_result = findViewById(R.id.load_results);
         newsUrl = new Intent().getStringExtra("news_link");
-
         new FetchApiResultTask().execute();//load the api results in background while progress rotates
 
-//        retrieveInfo();
-        load_result.loadUrl("https://stl-v2.herokuapp.com/api/v2/get?url=" + newsUrl);
+        retrieveInfo();
+          load_result.loadUrl("https://stl-v2.herokuapp.com/api/v2/get?url=" + retrieveInfo());
 
 
-        adapter = new ApiResultAdapter(paragraphArrayList);
         cacheVerificationDetails(); // store the recent verifications on local database
 
     }
 
-//    public String retrieveInfo() {
-//        SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("database", Context.MODE_PRIVATE);
-//        String link = sharedPref.getString("link", "");
-//        return link;
-//    }
+    public String retrieveInfo() {
+        SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("database", Context.MODE_PRIVATE);
+        String link = sharedPref.getString("link", "");
+        return link;
+    }
 
     public void cacheVerificationDetails() {
 
@@ -81,19 +90,19 @@ public class Results extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-//            displayProgressDialog("Verifying article ...");
+            displayProgressDialog("Verifying article ...");
         }
 
         @Override
         protected Void doInBackground(Void... voids) {
 
-            StringBuffer rawApiResultBuffer = HttpRequests.getRawVerificationResult("https://www.bbc.com/news/world-middle-east-49181534");
+            StringBuffer rawApiResultBuffer = HttpRequests.getRawVerificationResult(retrieveInfo());
 
             if (rawApiResultBuffer != null) {
 
                 paragraphArrayList.clear();
                 for (Paragraph paragraph : ResponseDiserializer.deserializeVerificationResult(rawApiResultBuffer)) {
-                    paragraphArrayList.add(paragraph);
+                    paragraphArrayList.add(paragraph); //update the items on the result screen
                     Log.e(TAG, "doInBackground: paragraph score" + paragraph.getParagraphScore());
                 }
             } else {
@@ -107,8 +116,8 @@ public class Results extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
 
             super.onPostExecute(aVoid);
-//            progressDialog.dismiss();
-//            adapter.notifyDataSetChanged();
+            progressDialog.dismiss();
+            adapter.notifyDataSetChanged(); //triggers the recyclerview to load the latest paragraph of the api result
 
         }
     }
@@ -118,5 +127,14 @@ public class Results extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         angazaDatabase.close();
+    }
+
+    public void displayProgressDialog(String title) {
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("Just a moment...");
+        progressDialog.setMessage(title);
+        progressDialog.setCancelable(false);
+        progressDialog.show();
+
     }
 }
